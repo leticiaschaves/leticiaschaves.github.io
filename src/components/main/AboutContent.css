@@ -1,0 +1,27 @@
+.about {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10rem;
+    gap: 2rem;
+}
+
+.resume {
+    color:rgb(34, 77, 81);
+    text-align: center;
+    padding: 2rem;
+    border: 1px solid rgb(250,217,144);
+    /* border-radius: 10%; */
+}
+
+.resume p{
+    text-align: justify;
+    color: rgb(34, 77, 81);
+}
+
+.resume h3{
+    color: rgb(250,217,144);
+    margin-bottom: 10px;
+}

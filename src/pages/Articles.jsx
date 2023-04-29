@@ -1,6 +1,6 @@
 import React from 'react';
-import NavBar from '../components/NavBar';
-import Footer from '../components/Footer';
+import NavBar from '../components/header/NavBar';
+import Footer from '../components/footer/Footer';
 
 function Articles() {
   return (
