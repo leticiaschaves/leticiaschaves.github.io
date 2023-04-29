@@ -1,0 +1,39 @@
+.nav {
+    background-color: rgb(77,166,174);
+    color: rgb(250,217,144);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 1rem;
+}
+
+.nav a {
+    color: inherit;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: stretch;
+    padding: .25rem;
+}
+
+.nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem
+}
+
+.title {
+    font-size: 3rem;
+    text-decoration: none;
+}
+
+.nav li.active {
+    background-color: rgb(97, 170, 181);
+}
+
+.nav li:hover {
+    background-color: rgb(255,111,63);
+}
