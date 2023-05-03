@@ -6,13 +6,23 @@
     justify-content: center;
     padding: 10rem;
     gap: 2rem;
+    color:rgb(34, 77, 81);
+    background-image: linear-gradient(
+        to bottom,
+      rgb(250,217,144),
+      rgb(77,166,174)
+    );
+}
+
+.about h3 {
+    font-weight: bold;
 }
 
 .resume {
     color:rgb(34, 77, 81);
     text-align: center;
     padding: 2rem;
-    border: 1px solid rgb(250,217,144);
+    border: 1px solid rgb(255, 255, 255);
     /* border-radius: 10%; */
 }
 
@@ -21,7 +31,11 @@
     color: rgb(34, 77, 81);
 }
 
-.resume h3{
-    color: rgb(250,217,144);
+.resume h2{
+    color: rgb(34, 77, 81);
     margin-bottom: 10px;
+    border: rgb(255, 255, 255) solid 1px;
+    padding: 1rem;
+    border-radius: 10%;
+    width: 10rem;
 }

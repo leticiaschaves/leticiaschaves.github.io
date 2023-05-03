@@ -6,11 +6,11 @@
 }
 
 .app {
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     to top,
   rgb(250,217,144),
   rgb(77,166,174)
-);
+); */
 border: blue 1px solid;
 justify-content: center;
 width: 100vw;

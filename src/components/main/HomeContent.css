@@ -7,6 +7,11 @@
     padding: 5rem;
     color:rgb(34, 77, 81);
     gap: 2rem;
+    background-image: linear-gradient(
+        to top,
+      rgb(250,217,144),
+      rgb(77,166,174)
+    );
 }
 
 .home-list {
@@ -26,7 +31,7 @@
 }
 
 .home li.active {
-    color: rgb(250,217,144);
+    color: rgb(255, 255, 255);
 }
 
 .home li:hover {
