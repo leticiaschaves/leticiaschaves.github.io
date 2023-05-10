@@ -8,9 +8,9 @@
     color:rgb(34, 77, 81);
     gap: 2rem;
     background-image: linear-gradient(
-        to top,
-      rgb(250,217,144),
-      rgb(77,166,174)
+        white,
+      /* rgb(250,217,144), */
+      rgba(77, 166, 174, 0.575)
     );
 }
 
@@ -31,14 +31,16 @@
 }
 
 .home li.active {
-    color: rgb(255, 255, 255);
+    color: rgb(255,111,63);
+    transition: all 0.3s ease-in-out;
 }
 
 .home li:hover {
-    background-color: rgb(255,111,63);
+    background-color: white;
+    transition: all 0.3s ease-in-out;
 }
 
 .greetings {
-    color: rgb(250,217,144);
+    color: rgb(255,111,63);
     cursor:context-menu;
 }

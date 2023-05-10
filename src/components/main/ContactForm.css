@@ -6,14 +6,13 @@
     gap: 1rem;
     justify-content: center;
     background-image: linear-gradient(
-        to top,
-      rgb(250,217,144),
+      rgba(250, 216, 144, 0.635),
       rgb(77,166,174)
     );
 }
 
 .contact-form h1 {
-    color: rgb(255, 255, 255);
+    color: rgb(73,133,161);
 }
 
 .text-input {
@@ -25,24 +24,33 @@
 
 #input-text {
     resize: none;
-    width: 100%;
+    width: 60%;
 }
 
 #input-textarea {
     resize: none;
-    width: 100%;
+    width: 60%;
 }
 
-.submit-btn {
-    background-color: rgb(73,133,161);
-    border: none;
-    border-radius: 5px;
-    color: rgb(250,217,144);
-    padding: 7px 0;
-    width: 100%;
+.button {
+    height: 50px;
+    width: 200px;
+    position: relative;
+    background-color: transparent;
+    cursor: pointer;
+    border: 2px solid rgba(250, 216, 144, 0.635);
+    border-radius: 30px;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.text-btn {
+    font-weight: 500;
+    letter-spacing: 4px;
 }
   
-.submit-btn:hover {
+.button:hover {
     background-color: rgb(255,111,63);
-    cursor: pointer;
+    box-shadow: 1px 1px 200px rgba(250, 216, 144, 0.635);
+    color: rgb(250,217,144);
 }

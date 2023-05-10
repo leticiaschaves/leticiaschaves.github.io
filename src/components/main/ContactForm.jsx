@@ -51,10 +51,12 @@ function ContactForm() {
           placeholder="Escreva aqui em detalhes"
         />
         <button
-          className="submit-btn"
+          className="button submit-btn"
           type="submit"
         >
-          Enviar
+          <span class="text-btn">
+            Enviar
+          </span>
         </button>
       </form>
     </section>

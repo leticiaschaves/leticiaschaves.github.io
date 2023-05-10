@@ -11,15 +11,21 @@ function AboutContent() {
       {
         data.map((e) => (
           <article
-          className="resume"
+          className="flip-card"
           key={e.id}>
-            <h2
-            type="button">
-              {e.title}
-            </h2>
-            <p>
-              {e.content}
-              </p>
+            <div className='inner'>
+              <div className='front'>
+                <h2
+                  type="button">
+                    {e.title}
+                </h2>
+              </div>
+              <div className='back'>
+                <p>
+                  {e.content}
+                </p>
+              </div>
+            </div>
           </article>
         ))
       }
@@ -28,3 +34,16 @@ function AboutContent() {
 }
 
 export default AboutContent;
+
+// <div class="flip-card">
+//     <div class="flip-card-inner">
+//         <div class="flip-card-front">
+//             <p class="title">FLIP CARD</p>
+//             <p>Hover Me</p>
+//         </div>
+//         <div class="flip-card-back">
+//             <p class="title">BACK</p>
+//             <p>Leave Me</p>
+//         </div>
+//     </div>
+// </div>

@@ -15,3 +15,7 @@ border: blue 1px solid;
 justify-content: center;
 width: 100vw;
 }
+
+html {
+  scroll-behavior: smooth;
+}

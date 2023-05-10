@@ -1,6 +1,6 @@
 .nav {
     background-color: rgb(77,166,174);
-    color: rgb(250,217,144);
+    color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -22,7 +22,7 @@
     margin: 0;
     list-style: none;
     display: flex;
-    gap: 1rem
+    gap: 1rem;
 }
 
 .title {
@@ -36,10 +36,12 @@
 
 .nav li.active {
     background-color: rgb(97, 170, 181);
+    transition: all 0.3s ease-in-out;
 }
 
 .nav li:hover {
     background-color: rgb(255,111,63);
+    transition: all 0.3s ease-in-out;
 }
 
 .fish-icon {
