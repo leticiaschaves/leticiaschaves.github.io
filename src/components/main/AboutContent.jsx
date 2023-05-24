@@ -1,49 +1,18 @@
 import React from 'react';
 import './AboutContent.css';
-import { data } from '../data/data';
 
 function AboutContent() {  
   return (
     <section className="about" id="about">
       <h3>
-        Sobre nós
+        Sobre mim
       </h3>
-      {
-        data.map((e) => (
-          <article
-          className="flip-card"
-          key={e.id}>
-            <div className='inner'>
-              <div className='front'>
-                <h2
-                  type="button">
-                    {e.title}
-                </h2>
-              </div>
-              <div className='back'>
-                <p>
-                  {e.content}
-                </p>
-              </div>
-            </div>
-          </article>
-        ))
-      }
+      <article className='about-me'>
+        <p>Me chamo Letícia e sou desenvolvedora front-end com foco em aplicações usando React. Além disso, também sou analista de dados!</p>
+        <p>Bora conhecer mais um pouco do meu trabalho? :)</p>
+      </article>
     </section>
   );
 }
 
 export default AboutContent;
-
-// <div class="flip-card">
-//     <div class="flip-card-inner">
-//         <div class="flip-card-front">
-//             <p class="title">FLIP CARD</p>
-//             <p>Hover Me</p>
-//         </div>
-//         <div class="flip-card-back">
-//             <p class="title">BACK</p>
-//             <p>Leave Me</p>
-//         </div>
-//     </div>
-// </div>
